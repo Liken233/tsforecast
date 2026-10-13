@@ -5,7 +5,7 @@ Thanks for your interest in `tsforecast`! 欢迎贡献。
 ## 开发环境
 
 ```bash
-git clone https://github.com/your-org/tsforecast.git
+git clone https://github.com/Liken233/tsforecast.git
 cd tsforecast
 python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
 pip install -e ".[dev]"

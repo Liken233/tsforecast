@@ -42,8 +42,8 @@ dependencies = [
 dev = ["pytest>=7.0", "ruff>=0.4"]
 
 [project.urls]
-Homepage = "https://github.com/your-org/tsforecast"
-Issues = "https://github.com/your-org/tsforecast/issues"
+Homepage = "https://github.com/Liken233/tsforecast"
+Issues = "https://github.com/Liken233/tsforecast/issues"
 
 [project.scripts]
 tsforecast-train = "tsforecast.train:main"

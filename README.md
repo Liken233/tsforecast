@@ -89,7 +89,7 @@ $$
 ## 安装
 
 ```bash
-git clone https://github.com/your-org/tsforecast.git
+git clone https://github.com/Liken233/tsforecast.git
 cd tsforecast
 pip install -e .            # 开发模式安装
 # 或
