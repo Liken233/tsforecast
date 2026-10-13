@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/pytorch-2.0%2B-ee4c2c)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![Tests](https://img.shields.io/badge/tests-52%20passed-brightgreen)](#测试)
+[![CI](https://github.com/Liken233/tsforecast/actions/workflows/ci.yml/badge.svg)](https://github.com/Liken233/tsforecast/actions/workflows/ci.yml)
 [![Code Style](https://img.shields.io/badge/style-ruff-000000)](https://github.com/astral-sh/ruff)
 
 ---
