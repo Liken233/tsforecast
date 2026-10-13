@@ -1,0 +1,54 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- 测试 / 缓存 ----
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ---- 编辑器 / IDE ----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ---- 本项目的运行产物（不要提交）----
+checkpoint/
+results/
+runs/
+outputs/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# ---- 本地数据（用 examples/make_synthetic_data.py 现场生成）----
+data/
+!examples/data/
+*.mat
+*.npy
+
+# ---- 操作系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,45 @@
+{
+  "data": {
+    "data_root": "./data/dataset",
+    "datasets": [],
+    "file_types": [".mat", ".csv", ".npy"],
+    "csv_orientation": "auto",
+    "csv_header": "auto",
+    "mat_key": "dataMatrix",
+    "input_len": 40,
+    "pred_len": 20,
+    "data_step": 100,
+    "samples_per_file": 300,
+    "cache_size": 8,
+    "batch_size": 256,
+    "num_workers": 0,
+    "val_ratio": 0.1,
+    "test_ratio": 0.1,
+    "split_by": "file",
+    "seed": 42
+  },
+  "model": {
+    "d_model": 256,
+    "num_heads": 8,
+    "layer_num": 6,
+    "dropout": 0.1
+  },
+  "train": {
+    "epochs": 50,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "lr_schedule": "onecycle",
+    "grad_clip": 1.0,
+    "patience": 10,
+    "use_amp": true,
+    "print_freq": 10,
+    "checkpoint_root": "./checkpoint",
+    "result_root": "./results"
+  },
+  "hardware": {
+    "use_gpu": true,
+    "gpu": 0,
+    "use_multi_gpu": false,
+    "devices": "0"
+  }
+}
